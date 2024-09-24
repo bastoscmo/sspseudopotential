@@ -1,0 +1,161 @@
+ATM Version 4.2.7 (revno 100)                               
+ ATM4.2.7  20-SEP-24    Cu All electron - valence: 4s1                   &v&d
+------------------------------------------------------------
+
+ Cu all electron calculation 
+ ---------------------------
+
+ r e l a t i v i s t i c ! !
+
+ correlation = pb      spin-polarized
+
+ nuclear charge             = 29.000000
+ number of core orbitals    =  9
+ number of valence orbitals =  1
+ electronic charge          = 29.000000
+ ionic charge               =  0.000000
+
+
+ input data for orbitals
+
+  i    n    l    s     j     occ
+
+  1    1    0   0.5   0.5    2.0000
+  2    2    0   0.5   0.5    2.0000
+  3    2    1  -0.5   0.5    2.0000
+  4    2    1   0.5   1.5    4.0000
+  5    3    0   0.5   0.5    2.0000
+  6    3    1  -0.5   0.5    2.0000
+  7    3    1   0.5   1.5    4.0000
+  8    3    2  -0.5   1.5    4.0000
+  9    3    2   0.5   2.5    6.0000
+ 10    4    0   0.5   0.5    1.0000
+
+
+ radial grid parameters
+
+ r(1) = .0 , r(2) =0.108E-05 , ... , r(1133) = 119.427
+ a =  6.000  b =  80.000
+
+Setting up initial charge
+Setting up ionic potential
+
+ n = 1  l = 0  s = 0.5
+        a extr         3.911
+        b extr        -0.413
+        r extr         0.034
+        r zero    
+        r 90/99 %      0.094   0.151
+
+ n = 2  l = 0  s = 0.5
+        a extr         1.069  -2.169
+        b extr        -0.146   0.041
+        r extr         0.026   0.197
+        r zero         0.070
+        r 90/99 %      0.366   0.533
+
+ n = 2  l = 1  s =-0.5
+        a extr         2.149
+        b extr         0.048
+        r extr         0.157
+        r zero    
+        r 90/99 %      0.335   0.507
+
+ n = 2  l = 1  s = 0.5
+        a extr         2.137
+        b extr        -0.098
+        r extr         0.159
+        r zero    
+        r 90/99 %      0.340   0.513
+
+ n = 3  l = 0  s = 0.5
+        a extr         0.405  -0.706   1.323
+        b extr        -0.056   0.016  -0.008
+        r extr         0.026   0.161   0.614
+        r zero         0.068   0.288
+        r 90/99 %      1.073   1.541
+
+ n = 3  l = 1  s =-0.5
+        a extr         0.658  -1.250
+        b extr         0.019  -0.007
+        r extr         0.122   0.615
+        r zero         0.258
+        r 90/99 %      1.156   1.703
+
+ n = 3  l = 1  s = 0.5
+        a extr         0.653  -1.241
+        b extr        -0.038   0.015
+        r extr         0.124   0.623
+        r zero         0.261
+        r 90/99 %      1.171   1.747
+
+ n = 3  l = 2  s =-0.5
+        a extr         0.975
+        b extr         0.012
+        r extr         0.601
+        r zero    
+        r 90/99 %      1.883   3.561
+
+ n = 3  l = 2  s = 0.5
+        a extr         0.970
+        b extr        -0.017
+        r extr         0.604
+        r zero    
+        r 90/99 %      1.930   3.652
+
+ n = 4  l = 0  s = 0.5
+        a extr         0.088  -0.152   0.252  -0.620
+        b extr        -0.012   0.004  -0.002   0.001
+        r extr         0.026   0.159   0.532   2.275
+        r zero         0.068   0.281   0.889
+        r 90/99 %      4.631   6.908
+
+ Total number of iterations needed for electron screening potential is 32
+
+
+
+ Cu output data for orbitals
+ ----------------------------
+
+ nl    s      occ         eigenvalue    kinetic energy      pot energy
+
+ 1s   0.5    2.0000    -648.37201055       0.00000000   -1687.97137097    
+ 2s   0.5    2.0000     -77.88250781       0.00000000    -368.37926196    
+ 2p  -0.5    2.0000     -68.29329655       0.00000000    -365.85488401    
+ 2p   0.5    4.0000     -66.79353197       0.00000000    -357.72624864    
+ 3s   0.5    2.0000      -8.40436139       0.00000000    -116.01771308    
+ 3p  -0.5    2.0000      -5.42026804       0.00000000    -108.21893547    
+ 3p   0.5    4.0000      -5.23137900       0.00000000    -106.25134324    
+ 3d  -0.5    4.0000      -0.38328206       0.00000000     -79.82167515    
+ 3d   0.5    6.0000      -0.36344760       0.00000000     -79.08629993    
+ 4s   0.5    1.0000      -0.33786088       0.00000000     -25.76551040  &v
+---------------------------- &v
+
+
+ total energies
+ --------------
+
+ sum of eigenvalues        =    -1908.89620724
+ kinetic energy from ek    =        0.00000000
+ el-ion interaction energy =    -7968.36470909
+ el-el  interaction energy =     1435.51276189
+ vxc    correction         =     -169.66425422
+ virial correction         =       19.10082574
+ exchange + corr energy    =     -132.02339710
+ kinetic energy from ev    =     3358.10723230
+ potential energy          =    -6664.87534430
+ ---------------------------------------------
+ total energy              =    -3306.76811200
+
+
+ virial theorem(nonrelativistic)
+ --------------
+
+ kinetic energy  *  2      =     6716.21446459
+ potential energy          =    -6664.87534430
+ virial correction         =       19.10082574
+ ---------------------------------------------
+ virial sum                =       70.43994603
+
+
+ The total time for the calculation is      0.10327 seconds
